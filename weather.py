@@ -78,13 +78,13 @@ class Weather:
         return ip_add
 
     def start_get(self):
-        # proxy = {
-        #     "https": self.address_pool()
-        # }
+        proxy = {
+            "https": self.address_pool()
+        }
 
         for num in range(3):
             try:
-                response = requests.get(self.url,params=self.params)
+                response = requests.get(self.url,params=self.params,proxies=proxy)
                 break
             except Exception as e:
                 print(f"{self.current_time} 第{num+1}次请求异常: {str(e)}")
