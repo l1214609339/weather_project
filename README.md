@@ -19,7 +19,7 @@
 
 ### 1. 克隆仓库
 ```bash
-git clone https://github.com/11214609339/weather_project.git
+git clone https://github.com/l1214609339/weather_project.git
 cd weather_project
 2. 安装依赖
 bash
@@ -68,4 +68,4 @@ python weather.py
 遇到大雨或大风时也做相应提醒
 
 项目地址
-https://github.com/11214609339/weather_project
+https://github.com/l1214609339/weather_project
